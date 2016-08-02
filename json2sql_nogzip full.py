@@ -16,7 +16,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 
-mydb = MS.connect(host='localhost', user='root', passwd='1987Kevin', db='reddit')
+mydb = MS.connect(host='localhost', user='root', passwd='pw', db='reddit')
 cursor = mydb.cursor()
 
 for file in glob.glob("data/*.json"):
